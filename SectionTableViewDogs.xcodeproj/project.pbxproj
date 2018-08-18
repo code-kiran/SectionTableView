@@ -12,6 +12,10 @@
 		9FD4EA4C2126811A0080FAEC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FD4EA4A2126811A0080FAEC /* Main.storyboard */; };
 		9FD4EA4E2126811B0080FAEC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9FD4EA4D2126811B0080FAEC /* Assets.xcassets */; };
 		9FD4EA512126811B0080FAEC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FD4EA4F2126811B0080FAEC /* LaunchScreen.storyboard */; };
+		9FD4EA5A212685520080FAEC /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FD4EA58212685520080FAEC /* HeaderView.swift */; };
+		9FD4EA5B212685520080FAEC /* HeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9FD4EA59212685520080FAEC /* HeaderView.xib */; };
+		9FD4EA602126A53B0080FAEC /* TableCellVC1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FD4EA5E2126A53B0080FAEC /* TableCellVC1.swift */; };
+		9FD4EA612126A53B0080FAEC /* TableCellVC1.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9FD4EA5F2126A53B0080FAEC /* TableCellVC1.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		9FD4EA4D2126811B0080FAEC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9FD4EA502126811B0080FAEC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9FD4EA522126811B0080FAEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9FD4EA58212685520080FAEC /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		9FD4EA59212685520080FAEC /* HeaderView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HeaderView.xib; sourceTree = "<group>"; };
+		9FD4EA5E2126A53B0080FAEC /* TableCellVC1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableCellVC1.swift; sourceTree = "<group>"; };
+		9FD4EA5F2126A53B0080FAEC /* TableCellVC1.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableCellVC1.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +46,7 @@
 		9FD4EA3A2126811A0080FAEC = {
 			isa = PBXGroup;
 			children = (
+				9FD4EA5C212688480080FAEC /* Resources */,
 				9FD4EA452126811A0080FAEC /* SectionTableViewDogs */,
 				9FD4EA442126811A0080FAEC /* Products */,
 			);
@@ -57,11 +66,38 @@
 				9FD4EA462126811A0080FAEC /* AppDelegate.swift */,
 				9FD4EA482126811A0080FAEC /* ViewController.swift */,
 				9FD4EA4A2126811A0080FAEC /* Main.storyboard */,
-				9FD4EA4D2126811B0080FAEC /* Assets.xcassets */,
 				9FD4EA4F2126811B0080FAEC /* LaunchScreen.storyboard */,
 				9FD4EA522126811B0080FAEC /* Info.plist */,
+				9FD4EA5D2126A4FE0080FAEC /* Section Header */,
+				9FD4EA622126A59B0080FAEC /* Cell1 */,
 			);
 			path = SectionTableViewDogs;
+			sourceTree = "<group>";
+		};
+		9FD4EA5C212688480080FAEC /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				9FD4EA4D2126811B0080FAEC /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		9FD4EA5D2126A4FE0080FAEC /* Section Header */ = {
+			isa = PBXGroup;
+			children = (
+				9FD4EA59212685520080FAEC /* HeaderView.xib */,
+				9FD4EA58212685520080FAEC /* HeaderView.swift */,
+			);
+			path = "Section Header";
+			sourceTree = "<group>";
+		};
+		9FD4EA622126A59B0080FAEC /* Cell1 */ = {
+			isa = PBXGroup;
+			children = (
+				9FD4EA5E2126A53B0080FAEC /* TableCellVC1.swift */,
+				9FD4EA5F2126A53B0080FAEC /* TableCellVC1.xib */,
+			);
+			path = Cell1;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +161,8 @@
 				9FD4EA512126811B0080FAEC /* LaunchScreen.storyboard in Resources */,
 				9FD4EA4E2126811B0080FAEC /* Assets.xcassets in Resources */,
 				9FD4EA4C2126811A0080FAEC /* Main.storyboard in Resources */,
+				9FD4EA612126A53B0080FAEC /* TableCellVC1.xib in Resources */,
+				9FD4EA5B212685520080FAEC /* HeaderView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,7 +174,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				9FD4EA492126811A0080FAEC /* ViewController.swift in Sources */,
+				9FD4EA5A212685520080FAEC /* HeaderView.swift in Sources */,
 				9FD4EA472126811A0080FAEC /* AppDelegate.swift in Sources */,
+				9FD4EA602126A53B0080FAEC /* TableCellVC1.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,6 +321,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N373WCYYY4;
 				INFOPLIST_FILE = SectionTableViewDogs/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -298,6 +339,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N373WCYYY4;
 				INFOPLIST_FILE = SectionTableViewDogs/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
